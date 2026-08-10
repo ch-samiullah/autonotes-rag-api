@@ -121,12 +121,3 @@ docker run -p 8000:8000 \
 
 ---
 
-## Interview Points
-
-- **Chunking overlap kyun:** Boundary pe context preserve karne ke liye
-- **Cosine similarity:** Do vectors ka angle — 1 = same, 0 = unrelated
-- **min_relevance_score:** Low similarity chunks filter karo → hallucination rokta hai
-- **temperature=0.1:** Low temp = deterministic, less creative = less hallucination
-- **Source attribution:** Har answer mein source → trust + debuggability
-- **Persistent ChromaDB:** Server restart ke baad data safe
-- **RAG vs Fine-tuning:** RAG updatable + cheap, fine-tuning better for style
